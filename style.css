@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* margin-right: 120px;
+    margin-left: 120px; */
+    /* width: 1440px;
+    height: 3306px; */
+}
+
+.full-container-top {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    /* margin-right: 120px;
+    margin-left: 120px; */
+}
+
+.influencer-logo h2 {
+    font-size: 24px;
+}
+
+.menu-items {
+    display: flex;
+    padding-right: 34px;
+}
+
+.menu-items li {
+    list-style: none;
+    padding-right: 15px;
+}
+
+/* influencer journey part */
+.influencer-journey {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+}
+
+.journey {
+    width: 50%;
+}
+
+/* .camera-side {
+    width: 50%;
+} */
+
+
+.text-style {
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+
+.paragrapth {
+    padding-bottom: 28px;
+}
+
+.link-butoon {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 41px;
+}
+
+.fa-arrow-right-long {
+    padding: 8px;
+}
+
+.camera-side img {
+    width: 440px;
+    height: 414px;
+}
+
+/* Brand Logos */
+.brand-logo {
+    width: 1110px;
+    height: 110px;
+    padding-left: 380px;
+    margin-top: 180px;
+    font-size: 2em;
+    /* padding-right: 165px; */
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Popular Collections */
+.container {
+    margin: 197px;
+    padding-left: 197px;
+    padding-right: 197px;
+    border-radius: 5px;
+    justify-content: center;
+    margin-bottom: 90px;
+    /* text-align: center; */
+    /* box-shadow: 0px 5px 13px #e1dcdc; */
+}
+
+h1,
+.p-text {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.popular-collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    row-gap: 30px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+
+.colection {
+    width: 312px;
+    height: 444px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    padding: 15px 0 0 12px;
+}
+
+.collection-banner img {
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+
+.fa-star {
+    font-size: 10px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+    ;
+}
+
+.paragrapth-style {
+    font-weight: 700;
+    font-size: 14px;
+    text-overflow: hidden;
+    color: #787885;
+}
+
+.see-more {
+    text-align: end;
+    padding-right: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(224, 44, 109, 0.87);
+}
+
+/* Featured products  */
+.featured {
+    padding-left: 300px;
+    width: 1400px;
+    height: 270px;
+    padding-bottom: 100px;
+
+}
+
+.featured-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.featured-banner img {
+    width: 404px;
+    height: 270px;
+}
+
+.products-deatils {
+    margin-left: 300px;
+}
+
+.half-width {
+    width: 20%;
+}
+
+.paragrapth-last {
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+
+
+
+/* footer */
+.footer {
+    background-color: #0A0826;
+    width: 100%;
+    height: 200px;
+}
+
+.footer-details {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.copyright {
+    font-size: 14px;
+}
+
+.footer-logo {
+    /* justify-content: space-between; */
+    display: flex;
+    color: white;
+    padding-top: 20px;
+    column-gap: 22px;
+    justify-content: center;
+}
